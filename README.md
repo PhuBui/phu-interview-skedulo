@@ -1,3 +1,9 @@
+# To easily log in use this URL:
+https://skedulo42-dev-ed.my.salesforce.com
+ 
+Username:
+phubui.interview@skedulo.com / t..123
+
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
