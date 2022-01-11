@@ -18,8 +18,11 @@ https://skedulo42-dev-ed--c.visualforce.com/apex/SearchNameWithCounter
 
 # Task 4
 Rest Api update contacts
+
 Url: https://skedulo42-dev-ed.my.salesforce.com/services/apexrest/contacts
+
 Method: PUT
+
 Request body (JSON): 
     {
         "contacts" : [
