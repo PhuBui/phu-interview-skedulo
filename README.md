@@ -9,6 +9,8 @@ https://skedulo42-dev-ed.my.salesforce.com
 
 Username: long.nguyen@skedulo.interview.com
 
+Email: long.nguyen@skedulo.com
+
 # Task 2
 Visualforce page:
 https://skedulo42-dev-ed--c.visualforce.com/apex/SearchName 
