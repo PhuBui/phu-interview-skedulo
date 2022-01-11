@@ -1,33 +1,54 @@
-# To easily log in use this URL:
-https://skedulo42-dev-ed.my.salesforce.com
+Phu Bui Interview
  
-Username:
-phubui.interview@skedulo.com / t..123
+Username: long.nguyen@skedulo.interview.com
+Username: phubui.interview@skedulo.com
 
 # Task 1
+Login with link:
 https://skedulo42-dev-ed.my.salesforce.com
+Username: long.nguyen@skedulo.interview.com
 
 # Task 2
+Visualforce page:
 https://skedulo42-dev-ed--c.visualforce.com/apex/SearchName 
 
 # Task 3
+Visualforce page:
 https://skedulo42-dev-ed--c.visualforce.com/apex/SearchNameWithCounter
 
-# Salesforce DX Project: Next Steps
+# Task 4
+Rest Api update contacts
+Url: https://skedulo42-dev-ed.my.salesforce.com/services/apexrest/contacts
+Method: PUT
+Request body (JSON): 
+    {
+        "contacts" : [
+            {
+                "Id": "0035j00000HwaDbAAJ",
+                "Phone": "1234567891",
+                "Email": "phubui2702@gmail.com"
+            },
+            {
+                "Id": "0035j00000HwaUHAAZ",
+                "Phone": "1234567892",
+                "Email": "phubui2702+1@gmail.com"
+            }
+        ]
+    }
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Response:
+    // success
+    {
+        "success": true,
+        "statusCode": 200,
+        "message": "Update success",
+        "error": ""
+    }
 
-## How Do You Plan to Deploy Your Changes?
-
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+    // error
+    {
+        "success": false,
+        "statusCode": 422,
+        "message": "Update failed",
+        "error": "Update failed. First exception on row 0 with id 0035j00000HwaDbAAJ1; first error: MALFORMED_ID, Contact ID: id value of incorrect type: 0035j00000HwaDbAAJ1: [Id]"
+    }
