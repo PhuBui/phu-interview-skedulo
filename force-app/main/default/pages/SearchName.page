@@ -1,5 +1,5 @@
-<apex:page Controller="SearchAccountAndContactController">
-    <apex:pageBlock title="Search Accounts and Contacts">
+<apex:page Controller="SearchNameController">
+    <apex:pageBlock title="Task 2 - Search Accounts and Contacts">
         <apex:pageMessages></apex:pageMessages>
         <apex:form >
             <apex:inputText value="{!searchKey}" label="Search key"/>

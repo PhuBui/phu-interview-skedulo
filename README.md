@@ -5,9 +5,13 @@ Username:
 phubui.interview@skedulo.com / t..123
 
 # Task 1
+https://skedulo42-dev-ed.my.salesforce.com
 
 # Task 2
-https://skedulo42-dev-ed--c.visualforce.com/apex/SearchAccountAndContactPage 
+https://skedulo42-dev-ed--c.visualforce.com/apex/SearchName 
+
+# Task 3
+https://skedulo42-dev-ed--c.visualforce.com/apex/SearchNameWithCounter
 
 # Salesforce DX Project: Next Steps
 
