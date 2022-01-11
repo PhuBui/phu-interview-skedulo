@@ -37,6 +37,7 @@ Request body (JSON):
     }
 
 Response:
+
     // success
     {
         "success": true,
